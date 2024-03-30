@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width">
     <title>Arif Setiawan - FE2897318</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://t4.ftcdn.net/jpg/04/81/22/35/360_F_481223546_RdXwIrMotbCh0vL2dIqzT9BJb5jn0sTK.jpg"
+        type="image/x-icon">
 </head>
 
 <body>
@@ -16,9 +18,9 @@
                     <h1 class="text-4xl font-bold">Portfolio</h1>
                     <ul class="flex space-x-14 text-base">
                         <li><a href="#" class="font-bold hover:text-[#FF0066]">Home</a></li>
-                        <li><a href="#" class="font-bold hover:text-[#FF0066]">About</a></li>
-                        <li><a href="#" class="font-bold hover:text-[#FF0066]">Education</a></li>
-                        <li><a href="#" class="font-bold hover:text-[#FF0066]">Contact</a></li>
+                        <li><a href="#education" class="font-bold hover:text-[#FF0066]">Education</a></li>
+                        <li><a href="#portfolio" class="font-bold hover:text-[#FF0066]">Portfolio</a></li>
+                        <li><a href="#contact" class="font-bold hover:text-[#FF0066]">Contact</a></li>
                     </ul>
                     <button
                         class="bg-[#FF0066] py-3 px-7 rounded-[50px] font-bold text-base text-white hover:scale-105 transition-all duration-300">
@@ -35,23 +37,24 @@
         <!-- Personal Info -->
         <section class="bg-[#F0F0F0] grid gird-cols-2 justify-center md:py-[7%] md:grid-cols-2">
             <div class="m-[20%] mt-32">
-                <h3 class="text-semibold font-bold md:text-xl text-xs text-[#444853]">Hello ---</h3><br />
-                <h1 class="font-bold md:text-6xl text-3xl text-[#444853]">I'm<span
-                        class="text-bold md:text-6xl text-3xl text-[#FF0066]">
+                <h3 class="text-semibold font-bold md:text-2xl text-xl text-[#444853]">Hello ----</h3><br />
+                <h1 class="font-bold md:text-6xl text-4xl text-[#444853]">I'm<span
+                        class="text-bold md:text-6xl text-4xl text-[#FF0066]">
                         Arif</span> Setiawan</h1><br>
                 <p class="font-semibold text-slate-600">I am a student from Amikom University Yogyakarta, Informatics
                     Engineering Study Program | Class of 2020.
                 </p>
             </div>
             <div class="mt-30">
-                <img src="asset/arif.png" alt="arif setiawan" class="max-w-full mx-auto" />
+                <img src="asset/arif.png" alt="arif setiawan" class="max-w-full mx-auto pl-10 pr-10" />
             </div>
         </section>
 
         <!-- Edukasi -->
         <section class="w-full">
-            <div class="ml-[10%] mr-[10%] mt-[5%] mb-[6%]">
-                <h1 class="font-bold text-2xl text-[#2F333F]">Education</h1>
+            <div class="flex flex-col items-center ml-[10%] mr-[10%] mt-[3%] mb-[6%]">
+                <!-- <h1 class="font-bold text-2xl text-[#2F333F]" id="education">Education</h1> -->
+                <h1 class="font-bold md:text-3xl text-2xl text-[#2F333F]" id="education">Education</h1>
                 <div class="grid grid-cols-1 gap-2 justify-center p-4 md:grid-cols-3 md:gap-6">
                     <div>
                         <h2 class="font-bold text-[#444853]">SMP N 1 BAMBANGLIPURO</h2>
@@ -72,7 +75,7 @@
         <!-- Card -->
         <section class="bg-[#F0F0F0]">
             <div class="flex flex-col items-center p-12">
-                <h1 class="font-bold md:text-3xl text-2xl text-[#2F333F]">View My Portfolio</h1>
+                <h1 class="font-bold md:text-3xl text-2xl text-[#2F333F]" id="portfolio">View My Portfolio</h1>
                 <p class="font-semibold text-slate-600">Take a look at some of my dummy portfolios.</p>
             </div>
             <div class="grid grid-cols-1 gap-2 justify-center pl-[10%] pr-[10%] pb-[10%] pt-0 md:grid-cols-3 md:gap-6">
@@ -148,7 +151,7 @@
         <!-- Form -->
         <section class="bg-white text-white max-w-full py-28">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="font-bold md:text-3xl text-2xl text-[#444853]">Contact Me</h2>
+                <h2 class="font-bold md:text-3xl text-2xl text-[#444853]" id="contact">Contact Me</h2>
                 <p class="font-semibold text-slate-600 mb-4">Please contact me if you want to ask.</p>
                 <form class="space-y-1">
                     <div>
